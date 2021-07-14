@@ -356,6 +356,15 @@ span.copy_right {
         width: 328px;
         margin-top: 30px;
     }
+    aside.player_photo img {
+        width: 100%;
+    }
+    .footer_logo img {
+        width: 100%;
+    }
+    aside.player_photo {
+        width: 100%;
+    }
 }
 
 
