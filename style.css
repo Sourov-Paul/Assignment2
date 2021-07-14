@@ -1,0 +1,392 @@
+/* google-font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap');
+
+/*-------------------- defualt_margin_padding_removing---------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header-start */
+
+header {
+    background-color: #2D25A0;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.header-container {
+    display: flex;
+    padding: 54px;
+}
+
+.banner_information {
+    width: 50%;
+    padding-left: 5%;
+    color: white;
+}
+
+.banner_information a {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    background: #e02c6d;
+    padding: 8px;
+}
+
+i.fas.fa-arrow-right {
+    margin-left: 5px;
+}
+
+.banner-image {
+    width: 556px;
+}
+
+.banner-image img {
+    width: 100%
+}
+
+.banner_information h2 {
+    padding: 24px;
+    margin-bottom: -1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px
+}
+
+.banner_information a {
+    margin-left: 25px;
+    transition: all 0.5s;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a.button:hover {
+    background: #16a79a;
+}
+
+
+/* ============================nav=========================== */
+
+.main_div {
+    display: flex;
+}
+
+.list {
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+
+.list ul li {
+    display: inline-block;
+    margin-top: 15px
+}
+
+.list ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 25%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+a.logoo {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+
+/* ==================nav end=======================   */
+
+
+/* animated start */
+
+header:hover img.football_kick {
+    transform: rotate(-360deg);
+    transition: all 2s
+}
+
+
+/* animated end */
+
+
+/* ===================
+Main Section
+==================*/
+
+
+/* player style start */
+
+.players_container {
+    padding: 75px 0px 0px 0px;
+}
+
+.player_information {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.player_img img {
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.player {
+    justify-self: center;
+    width: 300px;
+    height: 474px;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 21px;
+}
+
+.title p {
+    color: #6C6C6C;
+    font-family: 'Poppins', sans-serif;
+    line-height: 22px;
+}
+
+.player {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 11px;
+}
+
+.title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #18191F;
+}
+
+a.button2 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    background: #e02c6d;
+    padding: 8px;
+}
+
+
+/* players style end */
+
+
+/* PLayer blog start */
+
+.containent h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.containent p {
+    font-family: 'Poppins', sans-serif;
+    color: #6C6C6C;
+}
+
+.one_player {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    width: 1050px;
+}
+
+.player_photo {
+    width: 50%;
+}
+
+.player_photo img {
+    width: 567px;
+    height: 427px;
+}
+
+section.player_blogs {
+    margin-top: 85px;
+}
+
+.player_blog h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.player_blog p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.player_blog {
+    margin-top: 40px;
+}
+
+
+/* PLayer blog end */
+
+
+/* =========Footer Start================ */
+
+footer {
+    background: #181b1a;
+}
+
+.full_footer {
+    justify-content: center;
+    display: grid;
+}
+
+.footer_logo img {
+    width: 100%;
+}
+
+.footer_logo {
+    width: 483px;
+    margin-top: 20%;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+}
+
+.social_icons a {
+    color: #a7a6a6db;
+    margin-right: 11px;
+    font-size: 32px;
+}
+
+span.copy_right {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+i.fab.fa-facebook:hover {
+    color: rgb(98, 98, 255);
+}
+
+i.fab.fa-whatsapp-square:hover {
+    color: #60f560;
+}
+
+i.fab.fa-twitter-square:hover {
+    color: #03a9f4;
+}
+
+i.fab.fa-youtube-square:hover {
+    color: rgb(247, 43, 43);
+}
+
+span.copy_right {
+    color: white;
+}
+
+
+/* =========Footer End================ */
+
+
+/* ========================================Media Queries========================= */
+
+
+/*--------
+ Mobile-Devices
+-------- */
+
+@media only screen and (max-width:688px) {
+    nav {
+        display: none;
+    }
+    .banner_information h2 {
+        width: 100%;
+        font-size: 36px;
+        padding: 0px;
+    }
+    .banner_information a {
+        margin-left: -25px;
+    }
+    .header-container {
+        display: flex;
+        padding: 54px;
+        flex-direction: column;
+    }
+    .banner_information {
+        /* width: 77%; */
+        padding-left: 5%;
+        color: white;
+    }
+    .banner-image {
+        width: 357px
+    }
+    .player_information {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .one_player {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    aside.player_photo {
+        width: 328px;
+        margin-top: 30px;
+    }
+}
+
+
+/*  Tab/pad */
+
+
+/*  Tab/pad */
+
+@media screen and (max-width: 992px) and (min-width: 689px) {
+    .banner-image img {
+        margin-top: 50px;
+    }
+    .players_container {
+        width: 100%;
+    }
+    .player_information {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    aside.player_photo {
+        width: 100%;
+    }
+    .one_player {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    aside.player_photo img {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .player_blog {
+        padding: 0px 0px 0px 17px;
+    }
+}
